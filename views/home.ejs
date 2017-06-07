@@ -1,0 +1,77 @@
+<% include partials/head %>
+
+
+<div class="ui internally celled grid">
+  <div class="row">
+    <div class="eight wide column">
+    <div class="mainContent">
+    <h2 class="ui header inverted">About us</h2>
+	    <ul>
+    		<li>We give you the <i>individual attention</i> and the dedicated case handler to review your case today.</li>
+    		<li>Fill in the simple steps so <i>we can give you an instant decision</i> on your eligiiility.</li>
+    		<li>Next you will <i>recieve an email</i> to confim your eligiiility.</li>
+    		<li>Lastly sign the attached declaration and <i>we will do</i> the hard work for you.</li>
+    	</ul>
+	</div>
+    </div>
+    <div class="eight wide column">
+		<h1 class="ui inverted header">
+			Mis-sold high risk pension? 
+		</h1>
+		<h2 class="ui header inverted">Start your claim.</h2>
+		<div class="container inverted">
+			<form class="ui form inverted" method="POST" action="/">
+			  <div class="field">
+			    <label>Email</label>
+			    <input type="email" name="email" placeholder="Email">
+			  </div>
+			  <div class="field">
+			    <label>Phone number</label>
+			    <input type="number" name="phone" placeholder="Phone number">
+			  </div>			  
+			  <div class="field">
+			      <div class="field">
+			      	<label>Reasons for the claim</label>
+
+				    <textarea placeholder="What are the reasons you are claiming for?&#x0a;Switch from PPP to SIPP?&#x0a;ATR?&#x0a;Occupation?&#x0a;Risk assessment?"  name="reasons"></textarea>
+				  </div>
+ 			  </div>
+			  <div class="field">
+			    <label>Broker's name</label>
+			    <input type="text" name="broker" placeholder="Broker's Name">
+			  </div>
+			  <div class="field">
+			    <div class="ui checkbox">
+			      <input type="checkbox" tabindex="0" name="agree">
+			      <label class="inverted">I agree to the Terms and Conditions <a href="">(PandaDoc)</a></label>
+			    </div>
+			  </div>
+			  <input class="ui large red button" type="submit" name="Submit">   
+			</form>
+ 			</div>
+
+			<br>
+    </div>
+
+  </div>
+</div>
+
+</div>
+
+
+<div class="ui vertical stripe quote segment">
+	<div class="ui equal width stackable internally celled grid">
+	  <div class="center aligned row">
+	    <div class="column">
+	      <h3>"They were there for me...."</h3>
+	      <p>That is what our users say about us.</p>
+	    </div>
+	    <div class="column">
+	      <h3>"I shouldn't lose more time before i give them a call..."</h3>
+	      <p>Nick Taylor</p>
+	    </div>
+	  </div>
+	</div>
+</div>
+
+<% include partials/footer %>
